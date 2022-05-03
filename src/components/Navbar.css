@@ -1,0 +1,41 @@
+.green,.blue,.black,.white{
+    width: 25px;
+    height: 35px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.blue{
+    background-color: #101d31;
+    border: 1px solid white;
+}
+.blue:hover{
+    background-color: #101d31 !important;
+    text-decoration: none;
+}
+.green{
+    background-color: lightgreen;
+    border: 1px solid white;
+}
+.green:hover{
+    background-color: lightgreen !important;
+text-decoration: none;
+}
+.black{
+    background-color: black;
+    border: 1px solid white;
+}
+.black:hover{
+    background-color: black !important;
+text-decoration: none;
+}
+.white{
+    background-color: white;
+    border: 1px solid black;
+}
+.white:hover{
+    background-color: white !important;
+    text-decoration: none;
+  }

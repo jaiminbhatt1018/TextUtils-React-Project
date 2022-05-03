@@ -1,0 +1,19 @@
+
+const toggleMode=()=>{
+    if(mode==='dark'){
+      setMode('light');
+      document.body.style.backgroundColor='#F4F4F4';
+      showAlert("Dark mode has been enabled","success");
+    }
+    else{
+      setMode('dark');
+      document.body.style.backgroundColor='#101d31';
+      showAlert("Light mode has been enabled","success");
+    }
+  }
+inside navbar.js
+
+  <div className={`form-check form-switch text-${props.mode==='dark'?'light':'dark'}`}>
+        <input className="form-check-input" onClick={props.toggle} type="checkbox" id="flexSwitchCheckDefault" />
+        <label className="form-check-label mx-3" htmlFor="flexSwitchCheckDefault">Dark Mode</label>
+        </div>

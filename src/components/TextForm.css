@@ -1,0 +1,22 @@
+.btns button{
+    margin-left: 5px;
+    margin-right:5px;
+
+}
+
+   
+    
+      @media only screen and (max-width: 500px) {
+       
+        .btns {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            }
+            .btns button{
+                margin-top: 1rem;
+                width: 100%;
+                margin-left: 0%;
+                margin-right: 0%;
+            }
+      }
